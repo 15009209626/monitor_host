@@ -110,10 +110,10 @@ def write_to_csv(file_path, result, filename_list):
 
 if __name__ == '__main__':
     # define monitor term 0==false or  1==true
-    enable_memory = 0
-    enable_cup = 0
-    enable_io = 0
-    enable_network = 0
+    enable_memory = 1
+    enable_cup = 1
+    enable_io = 1
+    enable_network = 1
 
     # default capture interval and times
     default_interval = 1
